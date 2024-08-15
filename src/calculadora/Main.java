@@ -11,6 +11,8 @@ public class Main {
 
         char repetir;
         do {
+            System.out.println("Digite o nome do aluno");
+            String aluno = sc.next();
             System.out.println("Digite a nota da matéria");
             System.out.println("Português");
             double portugues = sc.nextDouble();
@@ -27,9 +29,9 @@ public class Main {
             System.out.println("Artes");
             double artes = sc.nextDouble();
 
-            System.out.println("Pontuação total de cada matéria");
-
-           
+            
+            System.out.println("Nome do aluno: " + aluno);
+            System.out.println("Pontuação total de cada matéria;");
             if (portugues < 12) {
                 System.out.println("Reprovado em Português com: " + portugues + " pontos");
             } else if (portugues <= 59) {
@@ -138,7 +140,7 @@ public class Main {
             System.out.println();
 
             System.out.println("RECUPERAÇÃO NAS MATÉRIAS");
-
+            
             if (portugues >= 12 && portugues <= 59) {
                 System.out.print("Português ");
             }
