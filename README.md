@@ -1,1 +1,1 @@
-Programa Java para calcular notoas por matéria.
+Programa Java para calcular notas por matéria.
